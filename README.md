@@ -19,8 +19,9 @@
     <img alt="Repository Size" src="https://img.shields.io/github/repo-size/aimanamri/Currency-Converter">
   </a>
 </p>
+
 # Currency-Converter
 
-1. Currency Converter App  (In-progress) <br>
+## 1. Currency Converter App  (In-progress) <br>
 **Python libraries :** streamlit, pandas 
 ![intro](https://github.com/aimanamri/Currency-Converter/blob/main/intro.gif)
