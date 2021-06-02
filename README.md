@@ -22,11 +22,21 @@
 
 # Python Apps Simple Projects
 
-## 1. Currency Converter App  (In-progress) <br>
-**Python libraries :** streamlit, pandas 
+## 1. Currency Converter App  (In-progress) 
+- **Python libraries :** streamlit, pandas 
+- Run this demo locally
+```bash
+pip install --upgrade streamlit
+streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/currencyconverterapp.py
+```
 ![intro](https://github.com/aimanamri/py-App/blob/main/images/intro.gif)
 <br>
-## 2. Simple Stock Price App  (In-progress) <br>
-**Python libraries :** streamlit, pandas, yfinance, base64
+## 2. Simple Stock Price App  (In-progress) 
+- **Python libraries :** streamlit, pandas, yfinance, base64 
+- Run this demo locally
+```bash
+pip install --upgrade streamlit
+streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/stockprice.py
+```
 ![intro2](https://github.com/aimanamri/py-App/blob/main/images/intro2.gif)
 
