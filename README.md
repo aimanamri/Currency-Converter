@@ -39,4 +39,11 @@ pip install --upgrade streamlit
 streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/stockprice.py
 ```
 ![intro2](https://github.com/aimanamri/py-App/blob/main/images/intro2.gif)
-
+## 3. KIT Course Syllabus App  (In-progress) 
+- **Python libraries :** streamlit, pandas
+- Run this demo locally
+```bash
+pip install --upgrade streamlit
+streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/syllabusapp.py
+```
+![intro3](https://github.com/aimanamri/py-App/blob/main/images/intro3.gif)
