@@ -24,9 +24,9 @@
 
 ## 1. Currency Converter App  (In-progress) <br>
 **Python libraries :** streamlit, pandas 
-![intro](https://github.com/aimanamri/py-App/blob/main/intro.gif)
+![intro](https://github.com/aimanamri/py-App/blob/main/images/intro.gif)
 <br>
 ## 2. Simple Stock Price App  (In-progress) <br>
 **Python libraries :** streamlit, pandas, yfinance, base64
-![intro2](https://github.com/aimanamri/py-App/blob/main/intro2.gif)
+![intro2](https://github.com/aimanamri/py-App/blob/main/images/intro2.gif)
 
