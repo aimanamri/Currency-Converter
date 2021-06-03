@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 st.set_page_config(layout="wide")
-image = Image.open('img2.png')
+image = Image.open('images/img2.png')
 st.image(image,width=300)
 
 st.title('Currency Converter App')
@@ -35,13 +35,14 @@ def load_data(): # Not finish yet, trying to get the API token key from the wweb
     conversion_date = pd.Series(data['date'],name='date')
     df = pd.concat([base_currency,rates_df,conversion_date],axis=1)
     pass
+
 df = load_data
 st.header('Currency conversion')
 st.write(df)
 st.write(f'{base_price_unit} {amount}     ⇒     {symbols_price_unit} {round(amount*rates,2)}')
 
 st.subheader('Idea ↓')
-image = Image.open('img.jpg')
+image = Image.open('images/img.jpg')
 st.image(image,width=900)
 
 # About
