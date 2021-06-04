@@ -8,14 +8,27 @@ st.set_page_config(layout="wide")
 # Sidebar + Main Panel
 st.sidebar.header('Input Options')
 
+# # Create the pandas DataFrame for stock tickername-code
+tickerCode = [['Google, GOOGL','GOOGL'],
+['Apple, AAPL','AAPL'],
+['Microsoft, MSFT','MSFT'],
+['Samsung Electronics, SSNLF','SSNLF'],
+['Toyota Motor, TM','TM'],
+['Honda Motor Company, HMC','HMC'],
+['Nintendo, NTDOY','NTDOY'],
+['Zoom Video Communications, ZM','ZM']]
+
+df = pd.DataFrame(tickerCode, columns=['tickerName', 'tickerCode'])
+values = df['tickerName'].tolist()
+options = df['tickerCode'].tolist()
+dic = dict(zip(options, values))
 # Sidebar - define the ticker symbol
-tickerCode = ['GOOGL','AAPL','MSFT','SSNLF','TM','HMC','NTDOY','ZM']
-tickerSymbol = st.sidebar.selectbox('Select ticker',tickerCode)  
+tickerSymbol = st.sidebar.selectbox('Select ticker', options, format_func=lambda x: dic[x])  
 startDate = st.sidebar.date_input('Start date')
 endDate = st.sidebar.date_input('End date')
 
 st.title('Simple Stock Price App')
-st.write(f'Shown are the **stock opening/closing price ** and **volume** of {tickerSymbol}!')
+st.write(f'Shown are the **stock closing price ** and **volume** of {tickerSymbol} !')
 
 # get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
@@ -24,8 +37,6 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d',start=startDate,end=endDate)
 tickerDf   # Open  High   Low  Close  Volume  Dividends   Stock Splits
 
-st.write('## Opening Price')
-st.line_chart(tickerDf.Open)
 st.write('## Closing Price')
 st.line_chart(tickerDf.Close)
 st.write('## Volume Price')
