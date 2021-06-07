@@ -31,7 +31,7 @@ streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/currencyco
 ```
 ![intro](https://github.com/aimanamri/py-App/blob/main/images/intro.gif)
 <br>
-## 2. Simple Stock Price App  (In-progress) 
+## 2. Simple Stock Price App
 - **Python libraries :** streamlit, pandas, yfinance, base64 
 - Run this demo locally
 ```bash
