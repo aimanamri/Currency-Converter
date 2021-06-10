@@ -1,5 +1,19 @@
-# Virtual environment
-/myenv
+# Virtual Environment
+myenv
+ml
+
+#Environment variables
+.env
+
+#Jupyter Notebooks
+*.ipynb
 
 # Others
-test.py
+*.txt
+*.png
+*.jpg
+*.ico
+*.gif
+__pycache__
+.vscode
+test.*
