@@ -27,7 +27,7 @@
 - Run this demo locally
 ```bash
 pip install --upgrade streamlit
-streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/currencyconverterapp.py
+streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/currencyconverterapp.py
 ```
 ![intro](https://github.com/aimanamri/streamlit-app/blob/main/images/intro.gif)
 <br>
@@ -36,7 +36,7 @@ streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/currencyco
 - Run this demo locally
 ```bash
 pip install --upgrade streamlit
-streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/stockprice.py
+streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/stockprice.py
 ```
 ![intro2](https://github.com/aimanamri/streamlit-app/blob/main/images/intro2.gif)
 ## 3. KIT Course Syllabus App  (In-progress) 
@@ -44,6 +44,6 @@ streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/stockprice
 - Run this demo locally
 ```bash
 pip install --upgrade streamlit
-streamlit run https://raw.githubusercontent.com/aimanamri/py-App/main/syllabusapp.py
+streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/syllabusapp.py
 ```
 ![intro3](https://github.com/aimanamri/streamlit-app/blob/main/images/intro3.gif)
