@@ -4,6 +4,7 @@ ml
 
 #Environment variables
 .env
+.ini
 
 #Jupyter Notebooks
 *.ipynb
