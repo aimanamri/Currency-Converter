@@ -132,7 +132,7 @@ def main(URL):  # sourcery no-metrics
 df  = main(url)
 st.write(df)
 
-head = st.beta_expander('About')
+head = st.expander('About')
 head.markdown('''
 An app that will show all the results for each faculty you selected. (in-progress)
 - **Python libraries: ** streamlit, pandas
