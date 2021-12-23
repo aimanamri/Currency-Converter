@@ -20,7 +20,7 @@
   </a>
 </p>
 
-# Python Apps Simple Projects
+# Python Streamlit Apps Simple Projects
 
 ## 1. Currency Converter App  (In-progress) 
 - **Python libraries :** streamlit, pandas 
@@ -31,13 +31,14 @@ streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/cur
 ```
 ![intro](https://github.com/aimanamri/streamlit-app/blob/main/images/intro.gif)
 <br>
-## 2. Simple Stock Price App
+## 2. Simple Stock Price App (Completed)
 - **Python libraries :** streamlit, pandas, yfinance, base64 
 - Run this demo locally
 ```bash
 pip install --upgrade streamlit
 streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/stockprice.py
 ```
+- Might add some simple technical indicators (SMA,MA,MACD) and more stock ticker options in the future.
 ![intro2](https://github.com/aimanamri/streamlit-app/blob/main/images/intro2.gif)
 ## 3. KIT Course Syllabus App  (In-progress) 
 - **Python libraries :** streamlit, pandas
