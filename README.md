@@ -49,7 +49,7 @@ streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/syl
 ```
 ![intro3](https://github.com/aimanamri/streamlit-app/blob/main/images/intro3.gif)
 
-## Deploy to Heroku
+## Deploy on Heroku
 |         Heroku App Guide    | Links                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Deploying your Streamlit dashboard with Heroku | https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku |
