@@ -48,3 +48,12 @@ pip install --upgrade streamlit
 streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/syllabusapp.py
 ```
 ![intro3](https://github.com/aimanamri/streamlit-app/blob/main/images/intro3.gif)
+
+## Deploy to Heroku
+|         Heroku App Guide    | Links                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Deploying your Streamlit dashboard with Heroku | https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku |
+| Keeping your Heroku App awake | https://kaffeine.herokuapp.com/ |
+| Download Heroku CLI | https://devcenter.heroku.com/articles/heroku-cli |
+| Download Git | https://git-scm.com/downloads |
+| Simple YouTube Tutorial |https://youtu.be/nJHrSvYxzjE |
