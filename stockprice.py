@@ -9,8 +9,8 @@ st.set_page_config(layout="wide")
 st.sidebar.header('Input Options')
 
 # # Create the pandas DataFrame for stock tickername-code
-tickerCode = [['Google, GOOGL','GOOGL'],
-['Apple, AAPL','AAPL'],
+tickerCode = [['Apple, AAPL','AAPL'],
+['Google, GOOGL','GOOGL'],
 ['Microsoft, MSFT','MSFT'],
 ['Samsung Electronics, SSNLF','SSNLF'],
 ['Toyota Motor, TM','TM'],
@@ -24,7 +24,7 @@ options = df['tickerCode'].tolist()
 dic = dict(zip(options, values))
 # Sidebar - define the ticker symbol
 tickerSymbol = st.sidebar.selectbox('Select ticker', options, format_func=lambda x: dic[x])  
-startDate = st.sidebar.date_input('Start date')
+startDate = st.sidebar.date_input('Start date',value=pd.Timestamp('1990-01-01'))
 endDate = st.sidebar.date_input('End date')
 
 st.title('Simple Stock Price App')
@@ -66,4 +66,3 @@ def download_link(object_to_download, download_filename, download_link_text):
 if st.button('Download Dataframe as CSV'):
     tmp_download_link = download_link(tickerDf, 'output.csv', 'Click here to download your data!')
     st.markdown(tmp_download_link, unsafe_allow_html=True)
-
