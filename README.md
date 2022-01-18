@@ -32,6 +32,7 @@ streamlit run https://raw.githubusercontent.com/aimanamri/streamlit-app/main/cur
 ![intro](https://github.com/aimanamri/streamlit-app/blob/main/images/intro.gif)
 <br>
 ## 2. Simple Stock Price App (Completed)
+- Currently app is running on herokuapp : https://stock-pricez.herokuapp.com/
 - **Python libraries :** streamlit, pandas, yfinance, base64 
 - Run this demo locally
 ```bash
