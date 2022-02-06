@@ -1,3 +1,5 @@
+# Python Streamlit Apps Simple Projects
+
 <p align="center">
   <a href="https://github.com/aimanamri/streamlit-app">
     <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/aimanamri/streamlit-app">
@@ -19,8 +21,6 @@
     <img alt="Repository Size" src="https://img.shields.io/github/repo-size/aimanamri/streamlit-app">
   </a>
 </p>
-
-# Python Streamlit Apps Simple Projects
 
 ## 1. Currency Converter App  (In-progress) 
 - **Python libraries :** streamlit, pandas 
